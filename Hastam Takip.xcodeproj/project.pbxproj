@@ -11,6 +11,11 @@
 		06F6AE482C5AD7E0004A2B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F6AE472C5AD7E0004A2B24 /* ContentView.swift */; };
 		06F6AE4A2C5AD7E5004A2B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F6AE492C5AD7E5004A2B24 /* Assets.xcassets */; };
 		06F6AE4D2C5AD7E5004A2B24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F6AE4C2C5AD7E5004A2B24 /* Preview Assets.xcassets */; };
+		06F6AE572C5AD8EC004A2B24 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06F6AE562C5AD8EC004A2B24 /* GoogleService-Info-2.plist */; };
+		06F6AE592C5AD98E004A2B24 /* HastaKayit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F6AE582C5AD98E004A2B24 /* HastaKayit.swift */; };
+		06F6AE5B2C5AD9CD004A2B24 /* YeniHastaKayitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F6AE5A2C5AD9CD004A2B24 /* YeniHastaKayitView.swift */; };
+		06F6AE5D2C5AD9DC004A2B24 /* DetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F6AE5C2C5AD9DC004A2B24 /* DetayView.swift */; };
+		06F6AE5F2C5AD9ED004A2B24 /* HastaListesi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F6AE5E2C5AD9ED004A2B24 /* HastaListesi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		06F6AE472C5AD7E0004A2B24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06F6AE492C5AD7E5004A2B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06F6AE4C2C5AD7E5004A2B24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06F6AE562C5AD8EC004A2B24 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		06F6AE582C5AD98E004A2B24 /* HastaKayit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HastaKayit.swift; sourceTree = "<group>"; };
+		06F6AE5A2C5AD9CD004A2B24 /* YeniHastaKayitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeniHastaKayitView.swift; sourceTree = "<group>"; };
+		06F6AE5C2C5AD9DC004A2B24 /* DetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayView.swift; sourceTree = "<group>"; };
+		06F6AE5E2C5AD9ED004A2B24 /* HastaListesi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HastaListesi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,11 +42,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		064915D32C5BE8A000994500 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		06F6AE392C5AD7E0004A2B24 = {
 			isa = PBXGroup;
 			children = (
 				06F6AE442C5AD7E0004A2B24 /* Hastam Takip */,
 				06F6AE432C5AD7E0004A2B24 /* Products */,
+				064915D32C5BE8A000994500 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +71,11 @@
 			children = (
 				06F6AE452C5AD7E0004A2B24 /* Hastam_TakipApp.swift */,
 				06F6AE472C5AD7E0004A2B24 /* ContentView.swift */,
+				06F6AE582C5AD98E004A2B24 /* HastaKayit.swift */,
+				06F6AE5A2C5AD9CD004A2B24 /* YeniHastaKayitView.swift */,
+				06F6AE5C2C5AD9DC004A2B24 /* DetayView.swift */,
+				06F6AE5E2C5AD9ED004A2B24 /* HastaListesi.swift */,
+				06F6AE562C5AD8EC004A2B24 /* GoogleService-Info-2.plist */,
 				06F6AE492C5AD7E5004A2B24 /* Assets.xcassets */,
 				06F6AE4B2C5AD7E5004A2B24 /* Preview Content */,
 			);
@@ -83,6 +106,8 @@
 			dependencies = (
 			);
 			name = "Hastam Takip";
+			packageProductDependencies = (
+			);
 			productName = "Hastam Takip";
 			productReference = 06F6AE422C5AD7E0004A2B24 /* Hastam Takip.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +136,8 @@
 				Base,
 			);
 			mainGroup = 06F6AE392C5AD7E0004A2B24;
+			packageReferences = (
+			);
 			productRefGroup = 06F6AE432C5AD7E0004A2B24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +154,7 @@
 			files = (
 				06F6AE4D2C5AD7E5004A2B24 /* Preview Assets.xcassets in Resources */,
 				06F6AE4A2C5AD7E5004A2B24 /* Assets.xcassets in Resources */,
+				06F6AE572C5AD8EC004A2B24 /* GoogleService-Info-2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F6AE5D2C5AD9DC004A2B24 /* DetayView.swift in Sources */,
+				06F6AE592C5AD98E004A2B24 /* HastaKayit.swift in Sources */,
 				06F6AE482C5AD7E0004A2B24 /* ContentView.swift in Sources */,
+				06F6AE5F2C5AD9ED004A2B24 /* HastaListesi.swift in Sources */,
+				06F6AE5B2C5AD9CD004A2B24 /* YeniHastaKayitView.swift in Sources */,
 				06F6AE462C5AD7E0004A2B24 /* Hastam_TakipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

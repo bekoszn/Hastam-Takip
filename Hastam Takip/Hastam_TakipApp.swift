@@ -7,8 +7,10 @@
 
 import SwiftUI
 
+
 @main
 struct Hastam_TakipApp: App {
+
     var body: some Scene {
         WindowGroup {
             ContentView()
